@@ -4164,7 +4164,7 @@
       <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
     </widget>
     <widget source="Title" render="Label" position="74,50" size="720,45" zPosition="1" halign="center" font="NFRLCD; 42" transparent="1" foregroundColor="grey" backgroundColor="grey" />
-    <widget source="list" render="Listbox" position="55,220" size="920,225" scrollbarMode="showOnDemand" transparent="1">
+    <widget source="list" render="Listbox" position="55,220" size="920,222" scrollbarMode="showOnDemand" transparent="1">
       <convert type="TemplatedMultiContent">
 		{"template": [
 			MultiContentEntryPixmapAlphaTest(pos = (0, 0), size = (100, 50), png = 1), 
