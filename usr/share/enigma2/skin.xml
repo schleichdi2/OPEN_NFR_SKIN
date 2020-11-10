@@ -195,9 +195,8 @@
     <widget source="session.FrontendStatus" render="Label" position="263,774" zPosition="4" size="90,30" font="Regular; 28" halign="left" foregroundColor="goldenrod" backgroundColor="goldenrod" transparent="1">
       <convert type="FrontendInfo">AGC</convert>
     </widget>
-    <widget source="session.CurrentService" render="MaggyPiconEmu" path="skin_default/piconCam/" position="1130,748" size="286,63" transparent="1" alphatest="blend" zPosition="3">
-      <convert type="EmuName">
-      </convert>
+    <widget font="NFRLCD; 38" borderColor="red" borderWidth="1" foregroundColor="red" backgroundColor="black" shadowColor="red" shadowOffset="1,1" halign="center" position="1140,766" size="286,40" render="Label" source="session.CurrentService" transparent="1" valign="center" zPosition="1">
+      <convert type="EmuInfo">Emu</convert>
     </widget>
     <ePixmap pixmap="skin_default/ca/fta.png" position="1628,668" size="100,60" alphatest="blend" zPosition="1" />
     <widget source="session.CurrentService" render="Pixmap" pixmap="skin_default/ca/beta.png" position="1628,668" size="100,60" zPosition="7" transparent="1" alphatest="blend">
@@ -481,9 +480,8 @@
     <widget source="session.FrontendStatus" render="Label" position="263,774" zPosition="4" size="90,30" font="Regular; 28" halign="left" foregroundColor="goldenrod" backgroundColor="goldenrod" transparent="1">
       <convert type="FrontendInfo">AGC</convert>
     </widget>
-    <widget source="session.CurrentService" render="MaggyPiconEmu" path="skin_default/piconCam/" position="1130,748" size="286,63" transparent="1" alphatest="blend" zPosition="3">
-      <convert type="EmuName">
-      </convert>
+    <widget font="NFRLCD; 38" borderColor="red" borderWidth="1" foregroundColor="red" backgroundColor="black" shadowColor="red" shadowOffset="1,1" halign="center" position="1140,766" size="286,40" render="Label" source="session.CurrentService" transparent="1" valign="center" zPosition="1">
+      <convert type="EmuInfo">Emu</convert>
     </widget>
     <ePixmap pixmap="skin_default/ca/fta.png" position="1628,668" size="100,60" alphatest="blend" zPosition="1" />
     <widget source="session.CurrentService" render="Pixmap" pixmap="skin_default/ca/beta.png" position="1628,668" size="100,60" zPosition="7" transparent="1" alphatest="blend">
