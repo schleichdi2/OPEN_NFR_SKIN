@@ -99,6 +99,9 @@
     <font filename="/usr/share/enigma2/skin_default/fonts/digi.ttf" name="DIGI" scale="100" />
     <font filename="/usr/share/enigma2/skin_default/fonts/Roboto-Regular.ttf" name="Regular" scale="100" />
     <font filename="/usr/share/enigma2/skin_default/fonts/arial.ttf" name="RegularLight" scale="100" />
+  <!-- Aliases that should be present >-->
+    <alias name="ChoiceList" font="Regular" size="32" height="44" />
+  <!-- Aliases that should be present End >-->		
   </fonts>
   <subtitles>
     <sub name="Subtitle_TTX" font="Regular;30" shadowColor="#40101010" shadowOffset="3,3" />
@@ -156,9 +159,43 @@
     <color name="WindowTitleBackground" color="black" />
   </windowstyle>
   <parameters>
-    <parameter name="DreamexplorerName" value="60,0,800,40" />
-    <parameter name="DreamexplorerIcon" value="7,5,30,30" />
-  </parameters>
+    <parameter name="AutotimerEnabledIcon" value="5,2,25,25" />
+    <parameter name="AutotimerRecordIcon" value="32,5,20,20" />
+    <parameter name="DreamexplorerName" value="40,2,660,25" />
+    <parameter name="DreamexplorerIcon" value="10,3,22,22" />
+    <parameter name="PluginBrowserName" value="120,2,30" />
+    <parameter name="PluginBrowserDescr" value="120,24,26" />
+    <parameter name="PluginBrowserIcon" value="10,5,100,40" />
+    <parameter name="PluginBrowserDownloadName" value="80,2,30" />
+    <parameter name="PluginBrowserDownloadDescr" value="80,24,26" />
+    <parameter name="PluginBrowserDownloadIcon" value="10,0,60,50" />
+    <parameter name="ChoicelistDash" value="0,2,700,2" />
+    <parameter name="ChoicelistName" value="50,4,860,40" />
+    <parameter name="ChoicelistIcon" value="10,3,30,30" />
+    <parameter name="ConfigListSeperator" value="400" />
+    <parameter name="FileListName" value="40,2,660,25" />
+    <parameter name="FileListIcon" value="10,4,20,20" />
+    <parameter name="FileListMultiName" value="55,0,470,25" />
+    <parameter name="FileListMultiIcon" value="30,2,20,20" />
+    <parameter name="FileListMultiLock" value="2,0,25,25" />
+    <parameter name="HelpMenuListExtHlp0" value="0,0,700,28" />
+    <parameter name="HelpMenuListExtHlp1" value="0,27,700,23" />
+    <parameter name="HelpMenuListHlp" value="0,0,700,30" />
+    <parameter name="SelectionListDescr" value="35,2,665,20" />
+    <parameter name="SelectionListLock" value="10,2,25,24" />
+    <parameter name="SelectionListLockOff" value="10,2,25,24" />
+    <parameter name="PicturePlayerThumb" value="35,190,30,200,20,14" />
+    <parameter name="PlayListName" value="35,0,665,30" />
+    <parameter name="PlayListIcon" value="10,7,16,16" />
+    <parameter name="ServiceInfo" value="0,0,300,30" />
+    <parameter name="ServiceInfoLeft" value="0,0,300,25" />
+    <parameter name="ServiceInfoRight" value="300,0,600,25" />
+    <parameter name="VirtualKeyboard" value="45,45" />
+    <parameter name="PiconManagerList" value="10,0,1120,30" />
+    <parameter name="PiconManagerListFont" value="Regular;20" />
+    <parameter name="ProgrammlistenUpdaterList" value="10,8,480,200,40" />
+    <parameter name="ProgrammlistenUpdaterListFont" value="Regular;22" />
+  </parameters>	
   <screen name="Volume" position="center,30" size="752,152" title="Volume" flags="wfNoBorder" backgroundColor="transparent" zPosition="1" transparent="0">
     <ePixmap position="0,0" size="752,152" zPosition="1" pixmap="skin_default/volume/volume_bg.png" alphatest="on" transparent="1" />
     <widget name="Volume" position="157,60" size="412,31" zPosition="2" pixmap="skin_default/volume/volume.png" transparent="1" orientation="orLeftToRight" alphatest="blend" />
@@ -771,9 +808,8 @@
     <widget source="global.CurrentTime" render="Label" position="164,648" size="442,50" font="NFRLCD; 40" halign="center" backgroundColor="backtop" transparent="1">
       <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
     </widget>
-    <widget source="session.CurrentService" render="MaggyPiconEmu" path="skin_default/piconCam/" position="812,966" size="286,79" transparent="1" alphatest="blend" zPosition="3">
-      <convert type="EmuName">
-      </convert>
+    <widget font="NFRLCD; 38" borderColor="red" borderWidth="1" foregroundColor="red" backgroundColor="black" shadowColor="red" shadowOffset="1,1" halign="center" position="1140,766" size="286,40" render="Label" source="session.CurrentService" transparent="1" valign="center" zPosition="1">
+      <convert type="EmuInfo">Emu</convert>
     </widget>
     <ePixmap pixmap="skin_default/icons/ico_dolby_off.png" position="1326,778" size="110,31" zPosition="1" alphatest="blend" />
     <widget source="session.CurrentService" render="Pixmap" pixmap="skin_default/icons/ico_dolby_on.png" position="1326,778" size="110,31" zPosition="2" alphatest="blend">
@@ -1155,7 +1191,7 @@
     <ePixmap name="nfrlogo" position="1020,900" size="870,37" pixmap="skin_default/menu/nfrlogo.png" />
   </screen>
   <screen name="ChoiceBox" position="center,center" size="1920,1080" title="Input" flags="wfNoBorder">
-    <ePixmap position="center,center" zPosition="-10" size="1920,1080" pixmap="skin_default/menu/menu.png" />
+    <ePixmap position="center,center" zPosition="-10" size="1920,1078" pixmap="skin_default/menu/menu.png" />
     <eLabel position="1056,210" zPosition="1" size="805,500" backgroundColor="unff000000" />
     <widget source="session.VideoPicture" render="Pig" position="1056,210" size="805,500" zPosition="0" />
     <widget source="session.CurrentService" render="Label" position="1079,747" size="750,45" zPosition="2" font="NFRLCD; 38" halign="center" noWrap="1" transparent="1" backgroundColor="white">
@@ -1170,10 +1206,13 @@
     <widget source="global.CurrentTime" render="Label" position="1166,50" size="550,45" font="NFRLCD; 42" halign="right" foregroundColor="grey" backgroundColor="grey" transparent="1">
       <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
     </widget>
-    <widget source="Title" render="Label" position="74,50" size="720,45" font="NFRLCD; 42" foregroundColor="grey" backgroundColor="grey" transparent="1" halign="center" />
-    <widget name="text" position="55,809" size="920,120" font="Regular;28" halign="center" transparent="1" zPosition="10" backgroundColor="goldenrod" foregroundColor="goldenrod" valign="bottom" />
-    <widget name="list" position="55,220" size="920,675" itemHeight="45" scrollbarMode="showOnDemand" halign="center" valign="center" enableWrapAround="1" backgroundColor="background" transparent="1" />
-    <ePixmap position="34,942" size="80,31" zPosition="10" pixmap="skin_default/buttons/key_ok.png" transparent="1" alphatest="blend" />
+    <ePixmap name="selector" position="52,767" size="930,10" pixmap="skin_default/menu/selector.png" zPosition="1" />
+    <ePixmap name="selector" position="52,337" size="930,10" pixmap="skin_default/menu/selector.png" zPosition="1" />
+    <widget source="windowtitle" render="Label" position="74,50" size="720,45" font="NFRLCD; 42" foregroundColor="grey" backgroundColor="grey" transparent="1" halign="center" />
+    <widget source="Title" render="Label" position="55,141" size="790,43" font="NFRLCD; 35" backgroundColor="goldenrod" transparent="1" foregroundColor="goldenrod" halign="center" />
+    <widget name="text" position="55,213" size="920,120" font="Regular;28" halign="center" transparent="1" zPosition="10" backgroundColor="goldenrod" foregroundColor="goldenrod" valign="bottom" />
+    <widget name="list" position="57,352" size="920,400" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="background" transparent="1" />
+ <ePixmap position="34,942" size="80,31" zPosition="10" pixmap="skin_default/buttons/key_ok.png" transparent="1" alphatest="blend" />
     <ePixmap position="458,942" size="80,31" zPosition="10" pixmap="skin_default/buttons/key_menu.png" transparent="1" alphatest="blend" />
     <ePixmap position="911,942" size="80,31" zPosition="10" pixmap="skin_default/buttons/key_exit.png" transparent="1" alphatest="blend" />
     <ePixmap name="tvback" position="1039,193" size="835,535" pixmap="skin_default/menu/tvbackmenu.png" />
@@ -5357,12 +5396,12 @@
     <widget source="global.CurrentTime" render="Label" position="1166,50" size="550,45" font="NFRLCD; 42" halign="right" foregroundColor="grey" backgroundColor="grey" transparent="1">
       <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
     </widget>
-    <ePixmap name="vkeyback" position="320,325" zPosition="1" size="1246,440" pixmap="skin_default/menu/vkeyback.png" />
+    <ePixmap name="vkeyback" position="320,325" zPosition="1" size="1300,500" pixmap="skin_default/menu/vkeyback.png" />
     <ePixmap pixmap="skin_default/buttons/yellow.png" position="55,1000" size="300,76" alphatest="blend" />
     <eLabel text="Virtual KeyBoard" position="74,50" size="720,45" zPosition="2" font="NFRLCD;42" transparent="1" foregroundColor="grey" backgroundColor="grey" halign="center" />
     <widget name="header" position="55,142" size="790,43" font="NFRLCD; 35" halign="center" transparent="1" noWrap="1" foregroundColor="goldenrod" backgroundColor="goldenrod" />
     <widget name="text" position="center,886" size="1810,38" zPosition="3" font="Regular; 32" noWrap="1" halign="center" valign="center" foregroundColor="grey" backgroundColor="grey" transparent="1" />
-    <widget name="list" position="346,347" size="1194,396" zPosition="2" selectionDisabled="1" transparent="1" />
+    <widget name="list" position="346,347" size="1203,430" zPosition="2" selectionDisabled="1" transparent="1" />
     <ePixmap name="selector" position="969,870" size="930,10" pixmap="skin_default/menu/selector.png" zPosition="1" />
     <ePixmap name="selector" position="40,870" size="930,10" pixmap="skin_default/menu/selector.png" zPosition="1" />
     <eLabel text="Change Language" position="68,1016" size="270,38" font="NFRLCD; 34" backgroundColor="white" transparent="1" halign="center" />
@@ -7867,19 +7906,19 @@
         self["list"].instance.setItemHeight(42)
     </applet>
   </screen>
-  <screen name="NumericalTextInputHelpDialog" position="225,598" size="520,200" backgroundColor="grey" flags="wfNoBorder" zPosition="8">
+  <screen name="NumericalTextInputHelpDialog" position="225,798" size="605,127" backgroundColor="grey" flags="wfNoBorder" zPosition="8">
     <widget name="key1" position="  1, 1" size="200,30" font="Console;21" halign="center" valign="center" />
     <widget name="key2" position="202, 1" size="200,30" font="Console;21" halign="center" valign="center" />
-    <widget name="key3" position="403, 1" size="200,30" font="Console;21" halign="center" valign="center" />
+    <widget name="key3" position="402,1" size="200,30" font="Console;21" halign="center" valign="center" />
     <widget name="key4" position="  1,32" size="200,30" font="Console;21" halign="center" valign="center" />
     <widget name="key5" position="202,32" size="200,30" font="Console;21" halign="center" valign="center" />
-    <widget name="key6" position="403,32" size="200,30" font="Console;21" halign="center" valign="center" />
+    <widget name="key6" position="401,32" size="201,30" font="Console;21" halign="center" valign="center" />
     <widget name="key7" position="  1,63" size="200,30" font="Console;21" halign="center" valign="center" />
-    <widget name="key8" position="202,63" size="200,30" font="Console;21" halign="center" valign="center" />
-    <widget name="key9" position="403,63" size="200,30" font="Console;21" halign="center" valign="center" />
+    <widget name="key8" position="202,62" size="200,31" font="Console;21" halign="center" valign="center" />
+    <widget name="key9" position="402,63" size="200,30" font="Console;21" halign="center" valign="center" />
     <widget name="help1" position="  1,94" size="200,30" font="Console;22" halign="center" valign="center" />
     <widget name="key0" position="202,94" size="200,30" font="Console;17" halign="center" valign="center" />
-    <widget name="help2" position="403,94" size="200,30" font="Console;22" halign="center" valign="center" />
+    <widget name="help2" position="402,94" size="200,30" font="Console;22" halign="center" valign="center" />
   </screen>
   <screen name="ParentalControlChangePin" position="center,center" size="1920,1080" title="Change pin code" flags="wfNoBorder">
     <ePixmap position="center,center" zPosition="-10" size="1920,1080" pixmap="skin_default/menu/menu.png" />
@@ -12154,8 +12193,8 @@
     <ePixmap pixmap="skin_default/buttons/key_blue.png" position="52,420" size="40,40" alphatest="blend" />
     <eLabel name="new eLabel" position="95,420" size="880,43" text="Einstellungen" font="Regular; 28" />
   </screen>
-<screen name="VFD_INISetup" position="center,center" size="1920,1080" title="LED Display Setup" >
-	<widget name="config" position="55,221" size="920,435" font="Regular; 28" scrollbarMode="showOnDemand" />
+  <screen name="VFD_INISetup" position="center,center" size="1920,1080" title="LED Display Setup">
+    <widget name="config" position="55,221" size="920,435" font="Regular; 28" scrollbarMode="showOnDemand" />
     <applet type="onLayoutFinish">
         self["config"].instance.setItemHeight(40)	
     </applet>
