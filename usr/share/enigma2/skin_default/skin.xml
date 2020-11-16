@@ -1,201 +1,171 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <skin>
   <!-- skin_default_SKIN for NFR images  OE 6.3 by schleichdi -->
-  <output id="0">
-    <resolution xres="1920" yres="1080" bpp="32" />
-  </output>
-  <colors>
-    <color name="background" value="#001a1a1a" />
-    <color name="background2" value="#001a1a1a" />
-    <color name="backgroundt" value="#001a1a1a" />
-    <color name="backtop" value="#001a1a1a" />
-    <color name="backtopt" value="#001a1a1a" />
-    <color name="black" value="#00000000" />
-    <color name="blue" value="#000064c7" />
-    <color name="cyan" value="#000090e6" />
-    <color name="cyan1" value="#0000deff" />
-    <color name="cyan2" value="#0000d2ff" />
-    <color name="dark" value="#00294a6b" />
-    <color name="darkgrey" value="#00999999" />
-    <color name="DarkRed" value="#00cd0000" />
-    <color name="foreground" value="#00dddddd" />
-    <color name="goldenrod" value="#00ffb90f" />
-    <color name="green" value="#00389416" />
-    <color name="grey" value="#00bbbbbb" />
-    <color name="grey2" value="#00aaaaaa" />
-    <color name="myblue" value="#0046b8fa" />
-    <color name="orange" value="#00f47d19" />
-    <color name="rds_text_bg" value="#00003258" />
-    <color name="red" value="#00f23d21" />
-    <color name="rssviewtop" value="#45005050" />
-    <color name="transparent" value="#ffffffff" />
-    <color name="transpBlack" value="#80000000" />
-    <color name="transpWhite" value="#77ffffff" />
-    <color name="transpyellow" value="#33bab329" />
-    <color name="un101214" value="#00101214" />
-    <color name="un18080911" value="#18080911" />
-    <color name="un18101214" value="#18101214" />
-    <color name="un18188b" value="#0018188b" />
-    <color name="un1c1c1c" value="#001c1c1c" />
-    <color name="un1c202b" value="#001c202b" />
-    <color name="un1e28b6" value="#001e28b6" />
-    <color name="un1f1f21" value="#001f1f21" />
-    <color name="un1f771f" value="#001f771f" />
-    <color name="un20000000" value="#20000000" />
-    <color name="un20343c4f" value="#20343c4f" />
-    <color name="un240e1014" value="#240e1014" />
-    <color name="un242424" value="#00242424" />
-    <color name="un27b5b9bd" value="#27b5b9bd" />
-    <color name="un27d9dee2" value="#27d9dee2" />
-    <color name="un31000000" value="#31000000" />
-    <color name="un333333" value="#00333333" />
-    <color name="un353e575e" value="#353e575e" />
-    <color name="un3b98c9" value="#003b98c9" />
-    <color name="un404040" value="#00404040" />
-    <color name="un41000000" value="#41000000" />
-    <color name="un444444" value="#00444444" />
-    <color name="un4d5375" value="#004d5375" />
-    <color name="un555555" value="#00555555" />
-    <color name="un555556" value="#00555556" />
-    <color name="un5678a4" value="#005678a4" />
-    <color name="un5d5d5d" value="#005d5d5d" />
-    <color name="un605f5e" value="#00605f5e" />
-    <color name="un61e500" value="#0061e500" />
-    <color name="un666666" value="#00666666" />
-    <color name="un697178" value="#00697178" />
-    <color name="un7f000000" value="#7f000000" />
-    <color name="un800000" value="#00800000" />
-    <color name="un808888" value="#00808888" />
-    <color name="un858a95" value="#00858a95" />
-    <color name="un9f1313" value="#009f1313" />
-    <color name="una08500" value="#00a08500" />
-    <color name="unaab2ba" value="#00aab2ba" />
-    <color name="unb59e01" value="#00b59e01" />
-    <color name="unbab329" value="#00bab329" />
-    <color name="unbb0048" value="#00bb0048" />
-    <color name="unc0c0c0" value="#00c0c0c0" />
-    <color name="unc5c9cc" value="#00c5c9cc" />
-    <color name="unc6e0f3" value="#00c6e0f3" />
-    <color name="und3d3d3" value="#00d3d3d3" />
-    <color name="undcaaaa" value="#00dcaaaa" />
-    <color name="undcdcdc" value="#00dcdcdc" />
-    <color name="une61700" value="#00e61700" />
-    <color name="unf0b400" value="#00f0b400" />
-    <color name="unf0f0f0" value="#00f0f0f0" />
-    <color name="unf2e000" value="#00f2e000" />
-    <color name="unfcc000" value="#00fcc000" />
-    <color name="unff0000" value="#00ff0000" />
-    <color name="unff000000" value="#ff000000" />
-    <color name="unff6600" value="#00ff6600" />
-    <color name="unffe500" value="#00ffe500" />
-    <color name="white" value="#00ffffff" />
-    <color name="yellow" value="#00e5b243" />
-  </colors>
-  <fonts>
-    <font filename="lcd.ttf" name="NFRLCD" scale="100" />
-    <font filename="ae_AlMateen.ttf" name="Replacement" scale="100" replacement="1" />
-    <font filename="tuxtxt.ttf" name="Console" scale="100" />
-    <font filename="nmsbd.ttf" name="Arial" scale="100" />
-    <font filename="/usr/share/enigma2/skin_default/fonts/digi.ttf" name="DIGI" scale="100" />
-    <font filename="/usr/share/enigma2/skin_default/fonts/Roboto-Regular.ttf" name="Regular" scale="100" />
-    <font filename="/usr/share/enigma2/skin_default/fonts/arial.ttf" name="RegularLight" scale="100" />
-  <!-- Aliases that should be present >-->
-    <alias name="ChoiceList" font="Regular" size="32" height="44" />
-  <!-- Aliases that should be present End >-->		
-  </fonts>
-  <subtitles>
-    <sub name="Subtitle_TTX" font="Regular;30" shadowColor="#40101010" shadowOffset="3,3" />
-    <sub name="Subtitle_Regular" font="Regular;30" foregroundColor="undcdcdc" shadowColor="#40101010" shadowOffset="3,3" />
-    <sub name="Subtitle_Regular" font="Replacement;30" foregroundColor="undcdcdc" shadowColor="#40101010" shadowOffset="3,3" />
-    <sub name="Subtitle_Italic" font="Regular;30" foregroundColor="undcaaaa" shadowColor="#40101010" shadowOffset="3,3" />
-  </subtitles>
-  <windowstyle type="skinned" id="0">
-    <title offset="33,32" font="Regular;24" />
-    <color name="Background" color="black" />
-    <color name="LabelForeground" color="white" />
-    <color name="ListboxBackground" color="black" />
-    <color name="ListboxForeground" color="white" />
-    <color name="ListboxSelectedBackground" color="black" />
-    <color name="ListboxSelectedForeground" color="white" />
-    <color name="ListboxMarkedBackground" color="black" />
-    <color name="ListboxMarkedForeground" color="orange" />
-    <color name="ListboxMarkedAndSelectedBackground" color="background" />
-    <color name="ListboxMarkedAndSelectedForeground" color="cyan" />
-    <color name="WindowTitleForeground" color="white" />
-    <color name="WindowTitleBackground" color="black" />
-    <borderset name="bsWindow">
-      <pixmap pos="bpTopLeft" filename="skin_default/window/bs_tl.png" />
-      <pixmap pos="bpTop" filename="skin_default/window/bs_t.png" />
-      <pixmap pos="bpTopRight" filename="skin_default/window/bs_tr.png" />
-      <pixmap pos="bpLeft" filename="skin_default/window/bs_l.png" />
-      <pixmap pos="bpRight" filename="skin_default/window/bs_r.png" />
-      <pixmap pos="bpBottomLeft" filename="skin_default/window/bs_bl.png" />
-      <pixmap pos="bpBottom" filename="skin_default/window/bs_b.png" />
-      <pixmap pos="bpBottomRight" filename="skin_default/window/bs_br.png" />
-    </borderset>
-    <borderset name="bsListboxEntry">
-      <pixmap pos="bpTopLeft" filename="skin_default/window/white.png" />
-      <pixmap pos="bpTop" filename="skin_default/window/h-white.png" />
-      <pixmap pos="bpTopRight" filename="skin_default/window/white.png" />
-      <pixmap pos="bpLeft" filename="skin_default/window/v-white.png" />
-      <pixmap pos="bpRight" filename="skin_default/window/v-white.png" />
-      <pixmap pos="bpBottomLeft" filename="skin_default/window/white.png" />
-      <pixmap pos="bpBottom" filename="skin_default/window/h-white.png" />
-      <pixmap pos="bpBottomRight" filename="skin_default/window/white.png" />
-    </borderset>
-  </windowstyle>
-  <windowstyle type="skinned" id="1">
-    <color name="Background" color="black" />
-    <color name="LabelForeground" color="white" />
-    <color name="ListboxBackground" color="black" />
-    <color name="ListboxForeground" color="white" />
-    <color name="ListboxSelectedBackground" color="black" />
-    <color name="ListboxSelectedForeground" color="white" />
-    <color name="ListboxMarkedBackground" color="black" />
-    <color name="ListboxMarkedForeground" color="white" />
-    <color name="ListboxMarkedAndSelectedBackground" color="black" />
-    <color name="ListboxMarkedAndSelectedForeground" color="white" />
-    <color name="WindowTitleForeground" color="white" />
-    <color name="WindowTitleBackground" color="black" />
-  </windowstyle>
-  <parameters>
-    <parameter name="AutotimerEnabledIcon" value="5,2,25,25" />
-    <parameter name="AutotimerRecordIcon" value="32,5,20,20" />
-    <parameter name="DreamexplorerName" value="40,2,660,25" />
-    <parameter name="DreamexplorerIcon" value="10,3,22,22" />
-    <parameter name="PluginBrowserName" value="120,2,30" />
-    <parameter name="PluginBrowserDescr" value="120,24,26" />
-    <parameter name="PluginBrowserIcon" value="10,5,100,40" />
-    <parameter name="PluginBrowserDownloadName" value="80,2,30" />
-    <parameter name="PluginBrowserDownloadDescr" value="80,24,26" />
-    <parameter name="PluginBrowserDownloadIcon" value="10,0,60,50" />
-    <parameter name="ChoicelistDash" value="0,2,700,2" />
-    <parameter name="ChoicelistName" value="50,4,860,40" />
-    <parameter name="ChoicelistIcon" value="10,3,30,30" />
-    <parameter name="ConfigListSeperator" value="400" />
-    <parameter name="FileListName" value="40,2,660,25" />
-    <parameter name="FileListIcon" value="10,4,20,20" />
-    <parameter name="FileListMultiName" value="55,0,470,25" />
-    <parameter name="FileListMultiIcon" value="30,2,20,20" />
-    <parameter name="FileListMultiLock" value="2,0,25,25" />
-    <parameter name="HelpMenuListExtHlp0" value="0,0,700,28" />
-    <parameter name="HelpMenuListExtHlp1" value="0,27,700,23" />
-    <parameter name="HelpMenuListHlp" value="0,0,700,30" />
-    <parameter name="SelectionListDescr" value="35,2,665,20" />
-    <parameter name="SelectionListLock" value="10,2,25,24" />
-    <parameter name="SelectionListLockOff" value="10,2,25,24" />
-    <parameter name="PicturePlayerThumb" value="35,190,30,200,20,14" />
-    <parameter name="PlayListName" value="35,0,665,30" />
-    <parameter name="PlayListIcon" value="10,7,16,16" />
-    <parameter name="ServiceInfo" value="0,0,300,30" />
-    <parameter name="ServiceInfoLeft" value="0,0,300,25" />
-    <parameter name="ServiceInfoRight" value="300,0,600,25" />
-    <parameter name="VirtualKeyboard" value="45,45" />
-    <parameter name="PiconManagerList" value="10,0,1120,30" />
-    <parameter name="PiconManagerListFont" value="Regular;20" />
-    <parameter name="ProgrammlistenUpdaterList" value="10,8,480,200,40" />
-    <parameter name="ProgrammlistenUpdaterListFont" value="Regular;22" />
-  </parameters>	
+<output id="0">
+	<resolution xres="1920" yres="1080" bpp="32" />
+</output>
+<colors>
+	<color name="background" value="#001a1a1a" />
+	<color name="background2" value="#001a1a1a" />
+	<color name="backgroundt" value="#001a1a1a" />
+	<color name="backtop" value="#001a1a1a" />
+	<color name="backtopt" value="#001a1a1a" />
+	<color name="black" value="#00000000" />
+	<color name="blue" value="#000064c7" />
+	<color name="cyan" value="#000090e6" />
+	<color name="cyan1" value="#0000deff" />
+	<color name="cyan2" value="#0000d2ff" />
+	<color name="dark" value="#00294a6b" />
+	<color name="darkgrey" value="#00999999" />
+	<color name="DarkRed" value="#00cd0000" />
+	<color name="foreground" value="#00dddddd" />
+	<color name="goldenrod" value="#00ffb90f" />
+	<color name="green" value="#00389416" />
+	<color name="grey" value="#00bbbbbb" />
+	<color name="grey2" value="#00aaaaaa" />
+	<color name="myblue" value="#0046b8fa" />
+	<color name="orange" value="#00f47d19" />
+	<color name="rds_text_bg" value="#00003258" />
+	<color name="red" value="#00f23d21" />
+	<color name="rssviewtop" value="#45005050" />
+	<color name="transparent" value="#ffffffff" />
+	<color name="transpBlack" value="#80000000" />
+	<color name="transpWhite" value="#77ffffff" />
+	<color name="transpyellow" value="#33bab329" />
+	<color name="un101214" value="#00101214" />
+	<color name="un18080911" value="#18080911" />
+	<color name="un18101214" value="#18101214" />
+	<color name="un18188b" value="#0018188b" />
+	<color name="un1c1c1c" value="#001c1c1c" />
+	<color name="un1c202b" value="#001c202b" />
+	<color name="un1e28b6" value="#001e28b6" />
+	<color name="un1f1f21" value="#001f1f21" />
+	<color name="un1f771f" value="#001f771f" />
+	<color name="un20000000" value="#20000000" />
+	<color name="un20343c4f" value="#20343c4f" />
+	<color name="un240e1014" value="#240e1014" />
+	<color name="un242424" value="#00242424" />
+	<color name="un27b5b9bd" value="#27b5b9bd" />
+	<color name="un27d9dee2" value="#27d9dee2" />
+	<color name="un31000000" value="#31000000" />
+	<color name="un333333" value="#00333333" />
+	<color name="un353e575e" value="#353e575e" />
+	<color name="un3b98c9" value="#003b98c9" />
+	<color name="un404040" value="#00404040" />
+	<color name="un41000000" value="#41000000" />
+	<color name="un444444" value="#00444444" />
+	<color name="un4d5375" value="#004d5375" />
+	<color name="un555555" value="#00555555" />
+	<color name="un555556" value="#00555556" />
+	<color name="un5678a4" value="#005678a4" />
+	<color name="un5d5d5d" value="#005d5d5d" />
+	<color name="un605f5e" value="#00605f5e" />
+	<color name="un61e500" value="#0061e500" />
+	<color name="un666666" value="#00666666" />
+	<color name="un697178" value="#00697178" />
+	<color name="un7f000000" value="#7f000000" />
+	<color name="un800000" value="#00800000" />
+	<color name="un808888" value="#00808888" />
+	<color name="un858a95" value="#00858a95" />
+	<color name="un9f1313" value="#009f1313" />
+	<color name="una08500" value="#00a08500" />
+	<color name="unaab2ba" value="#00aab2ba" />
+	<color name="unb59e01" value="#00b59e01" />
+	<color name="unbab329" value="#00bab329" />
+	<color name="unbb0048" value="#00bb0048" />
+	<color name="unc0c0c0" value="#00c0c0c0" />
+	<color name="unc5c9cc" value="#00c5c9cc" />
+	<color name="unc6e0f3" value="#00c6e0f3" />
+	<color name="und3d3d3" value="#00d3d3d3" />
+	<color name="undcaaaa" value="#00dcaaaa" />
+	<color name="undcdcdc" value="#00dcdcdc" />
+	<color name="une61700" value="#00e61700" />
+	<color name="unf0b400" value="#00f0b400" />
+	<color name="unf0f0f0" value="#00f0f0f0" />
+	<color name="unf2e000" value="#00f2e000" />
+	<color name="unfcc000" value="#00fcc000" />
+	<color name="unff0000" value="#00ff0000" />
+	<color name="unff000000" value="#ff000000" />
+	<color name="unff6600" value="#00ff6600" />
+	<color name="unffe500" value="#00ffe500" />
+	<color name="white" value="#00ffffff" />
+	<color name="yellow" value="#00e5b243" />
+</colors>
+<fonts>
+	<font filename="lcd.ttf" name="NFRLCD" scale="100" />
+	<font filename="ae_AlMateen.ttf" name="Replacement" scale="100" replacement="1" />
+	<font filename="tuxtxt.ttf" name="Console" scale="100" />
+	<font filename="nmsbd.ttf" name="Arial" scale="100" />
+	<font filename="/usr/share/enigma2/skin_default/fonts/digi.ttf" name="DIGI" scale="100" />
+	<font filename="/usr/share/enigma2/skin_default/fonts/Roboto-Regular.ttf" name="Regular" scale="100" />
+	<font filename="/usr/share/enigma2/skin_default/fonts/arial.ttf" name="RegularLight" scale="100" />
+	<alias name="ChoiceList" font="Regular" size="32" height="44" />
+	<alias name="VirtualKeyBoard" font="Regular" size="28" height="86" />
+</fonts>
+<parameters>
+	<parameter name="ChoicelistDash" value="0,2,700,2" />
+	<parameter name="ChoicelistName" value="50,4,860,40" />
+	<parameter name="ChoicelistIcon" value="10,3,30,30" />
+	<parameter name="VirtualKeyBoard" value="86,90"/>
+	<parameter name="VirtualKeyBoardAlignment" value="0,0"/>
+	<parameter name="VirtualKeyBoardPadding" value="4,4"/>
+	<parameter name="VirtualKeyBoardShiftColors" value="0x00ffffff,0x00ffffff,0x0000ffff,0x00ff00ff"/>
+</parameters>
+<subtitles>
+	<sub name="Subtitle_TTX" font="Regular;30" shadowColor="#40101010" shadowOffset="3,3" />
+	<sub name="Subtitle_Regular" font="Regular;30" foregroundColor="undcdcdc" shadowColor="#40101010" shadowOffset="3,3" />
+	<sub name="Subtitle_Regular" font="Replacement;30" foregroundColor="undcdcdc" shadowColor="#40101010" shadowOffset="3,3" />
+	<sub name="Subtitle_Italic" font="Regular;30" foregroundColor="undcaaaa" shadowColor="#40101010" shadowOffset="3,3" />
+</subtitles>
+<windowstyle type="skinned" id="0">
+	<title offset="33,32" font="Regular;24" />
+	<color name="Background" color="black" />
+	<color name="LabelForeground" color="white" />
+	<color name="ListboxBackground" color="black" />
+	<color name="ListboxForeground" color="white" />
+	<color name="ListboxSelectedBackground" color="black" />
+	<color name="ListboxSelectedForeground" color="white" />
+	<color name="ListboxMarkedBackground" color="black" />
+	<color name="ListboxMarkedForeground" color="orange" />
+	<color name="ListboxMarkedAndSelectedBackground" color="background" />
+	<color name="ListboxMarkedAndSelectedForeground" color="cyan" />
+	<color name="WindowTitleForeground" color="white" />
+	<color name="WindowTitleBackground" color="black" />
+	<borderset name="bsWindow">
+	<pixmap pos="bpTopLeft" filename="skin_default/window/bs_tl.png" />
+	<pixmap pos="bpTop" filename="skin_default/window/bs_t.png" />
+	<pixmap pos="bpTopRight" filename="skin_default/window/bs_tr.png" />
+	<pixmap pos="bpLeft" filename="skin_default/window/bs_l.png" />
+	<pixmap pos="bpRight" filename="skin_default/window/bs_r.png" />
+	<pixmap pos="bpBottomLeft" filename="skin_default/window/bs_bl.png" />
+	<pixmap pos="bpBottom" filename="skin_default/window/bs_b.png" />
+	<pixmap pos="bpBottomRight" filename="skin_default/window/bs_br.png" />
+</borderset>
+	<borderset name="bsListboxEntry">
+	<pixmap pos="bpTopLeft" filename="skin_default/window/white.png" />
+	<pixmap pos="bpTop" filename="skin_default/window/h-white.png" />
+	<pixmap pos="bpTopRight" filename="skin_default/window/white.png" />
+	<pixmap pos="bpLeft" filename="skin_default/window/v-white.png" />
+	<pixmap pos="bpRight" filename="skin_default/window/v-white.png" />
+	<pixmap pos="bpBottomLeft" filename="skin_default/window/white.png" />
+	<pixmap pos="bpBottom" filename="skin_default/window/h-white.png" />
+	<pixmap pos="bpBottomRight" filename="skin_default/window/white.png" />
+</borderset>
+</windowstyle>
+<windowstyle type="skinned" id="1">
+	<color name="Background" color="black" />
+	<color name="LabelForeground" color="white" />
+	<color name="ListboxBackground" color="black" />
+	<color name="ListboxForeground" color="white" />
+	<color name="ListboxSelectedBackground" color="black" />
+	<color name="ListboxSelectedForeground" color="white" />
+	<color name="ListboxMarkedBackground" color="black" />
+	<color name="ListboxMarkedForeground" color="white" />
+	<color name="ListboxMarkedAndSelectedBackground" color="black" />
+	<color name="ListboxMarkedAndSelectedForeground" color="white" />
+	<color name="WindowTitleForeground" color="white" />
+	<color name="WindowTitleBackground" color="black" />
+</windowstyle>
   <screen name="Volume" position="center,30" size="752,152" title="Volume" flags="wfNoBorder" backgroundColor="transparent" zPosition="1" transparent="0">
     <ePixmap position="0,0" size="752,152" zPosition="1" pixmap="skin_default/volume/volume_bg.png" alphatest="on" transparent="1" />
     <widget name="Volume" position="157,60" size="412,31" zPosition="2" pixmap="skin_default/volume/volume.png" transparent="1" orientation="orLeftToRight" alphatest="blend" />
@@ -808,9 +778,6 @@
     <widget source="global.CurrentTime" render="Label" position="164,648" size="442,50" font="NFRLCD; 40" halign="center" backgroundColor="backtop" transparent="1">
       <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
     </widget>
-    <widget font="NFRLCD; 38" borderColor="red" borderWidth="1" foregroundColor="red" backgroundColor="black" shadowColor="red" shadowOffset="1,1" halign="center" position="1140,766" size="286,40" render="Label" source="session.CurrentService" transparent="1" valign="center" zPosition="1">
-      <convert type="EmuInfo">Emu</convert>
-    </widget>
     <ePixmap pixmap="skin_default/icons/ico_dolby_off.png" position="1326,778" size="110,31" zPosition="1" alphatest="blend" />
     <widget source="session.CurrentService" render="Pixmap" pixmap="skin_default/icons/ico_dolby_on.png" position="1326,778" size="110,31" zPosition="2" alphatest="blend">
       <convert type="ServiceInfo">IsMultichannel</convert>
@@ -968,6 +935,9 @@
     </widget>
     <!-- TunerInfo end -->
     <widget source="session.CurrentService" render="Picon" position="161,825" zPosition="2" size="209,134" transparent="1" alphatest="blend">
+      <convert type="ServiceName">Reference</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Picon" position="1550,825" size="209,134" zPosition="2" transparent="1" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="session.Event_Now" render="Label" position="400,833" size="100,44" font="Regular; 34" halign="center" backgroundColor="blue" transparent="1" foregroundColor="blue" zPosition="1">
