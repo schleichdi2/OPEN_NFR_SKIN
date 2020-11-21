@@ -101,6 +101,8 @@
 	<font filename="/usr/share/enigma2/skin_default/fonts/arial.ttf" name="RegularLight" scale="100" />
 	<alias name="ChoiceList" font="Regular" size="32" height="44" />
 	<alias name="VirtualKeyBoard" font="Regular" size="28" height="86" />
+	<alias name="FileList" font="Regular" size="30" height="40" />
+	<alias name="FileListMulti" font="Regular" size="30" height="40" />
 </fonts>
 <parameters>
 	<parameter name="ChoicelistDash" value="0,2,700,2" />
@@ -110,6 +112,11 @@
 	<parameter name="VirtualKeyBoardAlignment" value="0,0"/>
 	<parameter name="VirtualKeyBoardPadding" value="4,4"/>
 	<parameter name="VirtualKeyBoardShiftColors" value="0x00ffffff,0x00ffffff,0x0000ffff,0x00ff00ff"/>
+	<parameter name="FileListName" value="40,2,820,40"/>
+	<parameter name="FileListIcon" value="5,7,25,25"/>
+	<parameter name="FileListMultiName" value="60,2,820,40"/>
+	<parameter name="FileListMultiIcon" value="30,7,25,25"/>
+	<parameter name="FileListMultiLock" value="2,7,25,25"/>
 </parameters>
 <subtitles>
 	<sub name="Subtitle_TTX" font="Regular;30" shadowColor="#40101010" shadowOffset="3,3" />
