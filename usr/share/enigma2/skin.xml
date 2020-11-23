@@ -103,6 +103,7 @@
 	<alias name="VirtualKeyBoard" font="Regular" size="28" height="86" />
 	<alias name="FileList" font="Regular" size="30" height="40" />
 	<alias name="FileListMulti" font="Regular" size="30" height="40" />
+	<alias name="SelectionList" font="Regular" size="28" height="40" />
 </fonts>
 <parameters>
 	<parameter name="ChoicelistDash" value="0,2,700,2" />
@@ -117,6 +118,9 @@
 	<parameter name="FileListMultiName" value="60,2,820,40"/>
 	<parameter name="FileListMultiIcon" value="30,7,25,25"/>
 	<parameter name="FileListMultiLock" value="2,7,25,25"/>
+	<parameter name="SelectionListDescr" value="55, 3, 820, 50" />
+	<parameter name="SelectionListLock" value="10, 7, 50, 50" />
+	<parameter name="SelectionListLockOff" value="10, 7, 50, 50" />
 </parameters>
 <subtitles>
 	<sub name="Subtitle_TTX" font="Regular;30" shadowColor="#40101010" shadowOffset="3,3" />
@@ -2684,7 +2688,7 @@
     </widget>
     <eLabel text="EPGSelection" position="74,50" size="720,45" font="NFRLCD; 42" halign="center" transparent="1" foregroundColor="grey" backgroundColor="grey" />
     <widget source="Title" render="Label" position="55,141" size="790,43" font="NFRLCD; 35" backgroundColor="goldenrod" foregroundColor="goldenrod" transparent="1" halign="center" />
-	<widget name="list" position="55,220" size="920,695" zPosition="3" itemHeight="30" font="Regular; 26" scrollbarMode="showOnDemand" backgroundColor="background" transparent="1" />
+	<widget name="list" position="55,220" size="920,690" zPosition="3" scrollbarMode="showOnDemand" backgroundColor="background" transparent="1" />
     <ePixmap pixmap="skin_default/buttons/red.png" position="55,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/green.png" position="568,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/yellow.png" position="1066,1000" size="300,76" alphatest="blend" />
@@ -2736,7 +2740,7 @@
     <widget name="next_text" position="258,227" size="150,40" zPosition="3" text="NEXT" font="NFRLCD; 34" halign="center" backgroundColor="background" transparent="1" />
     <widget name="more_text" position="445,227" size="150,40" zPosition="3" text="MORE" font="NFRLCD; 34" halign="center" backgroundColor="background" transparent="1" />
     <widget name="date" position="624,227" size="343,40" font="NFRLCD; 34" valign="center" halign="center" transparent="1" zPosition="5" />
-    <widget name="list" position="55,320" size="920,599" scrollbarMode="showOnDemand" backgroundColor="background" transparent="1" />
+    <widget name="list" position="55,320" size="920,595" scrollbarMode="showOnDemand" backgroundColor="background" transparent="1" />
     <widget source="Event" render="RunningText" position="1043,775" zPosition="1" size="829,176" font="Regular; 30" halign="center" options="movetype=running,startpoint=0,direction=top,steptime=90,repeat=2,startdelay=10000,wrap" backgroundColor="transparent" alphatest="on" transparent="1">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
@@ -10275,7 +10279,7 @@
     <ePixmap name="senderback" position="1042,729" size="828,80" pixmap="skin_default/menu/sendernameback.png" />
     <ePixmap name="progressback" position="1046,813" size="821,55" pixmap="skin_default/menu/progressbackmenu.png" zPosition="0" />
     <eLabel text="Import AutoTimer" position="74,50" size="720,45" font="NFRLCD; 42" foregroundColor="grey" backgroundColor="grey" transparent="1" halign="center" />
-    <widget name="list" position="55,220" size="920,720" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="background" transparent="1" />
+    <widget name="list" position="55,220" size="920,720" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="background" transparent="1" />
     <ePixmap pixmap="skin_default/buttons/red-long.png" position="54,1004" size="405,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/green-long.png" position="516,1004" size="405,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/yellow-long.png" position="989,1004" size="405,76" alphatest="blend" />
