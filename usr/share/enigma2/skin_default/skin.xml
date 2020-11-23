@@ -2764,7 +2764,7 @@
     <widget name="lab1" position="45,103" size="1830,140" font="Regular;24" halign="center" valign="center" zPosition="24" backgroundColor="black" transparent="0" />
     <widget name="timeline_text" position="40,68" size="1830,30" backgroundColor="goldenrod" foregroundColor="goldenrod" transparent="1" zPosition="0" />
     <widget name="bouquetlist" position="45,103" size="1830,140" backgroundColor="black" scrollbarMode="showNever" zPosition="2" transparent="0" />
-    <widget name="list" position="45,103" size="1830,140" backgroundColor="black" scrollbarMode="showNever" zPosition="1" transparent="0" />
+    <widget name="list" position="45,103" size="1830,130" backgroundColor="black" scrollbarMode="showNever" zPosition="1" transparent="0" />
     <widget name="timeline_now" position="0,103" zPosition="3" size="19,140" pixmap="epg/timeline-now.png" alphatest="on" />
     <ePixmap pixmap="skin_default/buttons/key_menu.png" position="1797,252" size="80,31" alphatest="blend" transparent="1" zPosition="4" />
     <ePixmap pixmap="skin_default/skin_default/buttons/red.png" position="45,248" size="38,38" alphatest="blend" transparent="1" zPosition="4" />
@@ -2971,9 +2971,9 @@
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
     <widget name="timeline_text" position="48,215" size="1820,40" selectionDisabled="1" transparent="1" />
-    <widget name="list" position="48,265" size="1820,512" itemHeight="60" EntryBorderColor="grey" EntryBackgroundColor="#2f4974" EntryBackgroundColorSelected="#688cbf" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="list" position="48,265" size="1820,512" itemHeight="64" EntryBorderColor="grey" EntryBackgroundColor="#2f4974" EntryBackgroundColorSelected="#688cbf" scrollbarMode="showOnDemand" transparent="1" />
     <widget name="timeline_now" position="0,265" zPosition="3" size="19,512" pixmap="skin_default/epg/timeline-now-pig.png" alphatest="blend" />
-    <ePixmap pixmap="skin_default/buttons/key_red.png" position="55,1000" size="300,76" alphatest="blend" />
+    <ePixmap pixmap="skin_default/buttons/red.png" position="55,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/green.png" position="568,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/yellow.png" position="1066,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/blue-long.png" position="1461,1004" size="405,76" alphatest="blend" />
