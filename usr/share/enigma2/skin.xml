@@ -2498,7 +2498,7 @@
       <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
     </widget>
     <widget source="Title" render="Label" position="74,50" size="720,45" font="NFRLCD; 42" foregroundColor="grey" backgroundColor="grey" transparent="1" halign="center" />
-    <widget name="timerlist" position="55,220" size="920,700" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="timerlist" position="55,220" size="920,700" scrollbarMode="showOnDemand" transparent="1"  rowSplit="40" iconMargin="20" satPosLeft="160"  itemHeight="70" setFont="Regular;24" setEventNameFont="Regular;28" setServiceNameFont="Regular;28" />
     <ePixmap pixmap="skin_default/buttons/red.png" position="55,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/green.png" position="568,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/yellow.png" position="1066,1000" size="300,76" alphatest="blend" />
@@ -2597,9 +2597,9 @@
       <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
     </widget>
     <eLabel text="Timer sanity error" position="74,50" size="720,45" font="NFRLCD; 42" transparent="1" foregroundColor="grey" backgroundColor="grey" halign="center" />
-    <widget name="list" position="55,220" size="920,380" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" />
-    <widget name="timer1" position="55,617" size="920,150" scrollbarMode="showNever" transparent="1" />
-    <widget name="timer2" position="55,780" size="920,150" scrollbarMode="showNever" transparent="1" />
+    <widget name="list" position="55,220" size="920,380" itemHeight="36" font="Regular; 28" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="timer1" position="55,617" size="920,150" scrollbarMode="showNever" transparent="1" rowSplit="40" iconMargin="20" satPosLeft="160"  itemHeight="70" setFont="Regular;24" setEventNameFont="Regular;28" setServiceNameFont="Regular;28" />
+    <widget name="timer2" position="55,780" size="920,150" scrollbarMode="showNever" transparent="1" rowSplit="40" iconMargin="20" satPosLeft="160"  itemHeight="70" setFont="Regular;24" setEventNameFont="Regular;28" setServiceNameFont="Regular;28" />
     <ePixmap pixmap="skin_default/buttons/red.png" position="55,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/green.png" position="568,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/yellow.png" position="1066,1000" size="300,76" alphatest="blend" />
@@ -2684,7 +2684,7 @@
     </widget>
     <eLabel text="EPGSelection" position="74,50" size="720,45" font="NFRLCD; 42" halign="center" transparent="1" foregroundColor="grey" backgroundColor="grey" />
     <widget source="Title" render="Label" position="55,141" size="790,43" font="NFRLCD; 35" backgroundColor="goldenrod" foregroundColor="goldenrod" transparent="1" halign="center" />
-    <widget name="list" position="55,220" size="920,700" zPosition="3" itemHeight="30" font="Regular; 26" scrollbarMode="showOnDemand" backgroundColor="background" transparent="1" />
+	<widget name="list" position="55,220" size="920,695" zPosition="3" itemHeight="30" font="Regular; 26" scrollbarMode="showOnDemand" backgroundColor="background" transparent="1" />
     <ePixmap pixmap="skin_default/buttons/red.png" position="55,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/green.png" position="568,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/yellow.png" position="1066,1000" size="300,76" alphatest="blend" />
@@ -2736,7 +2736,7 @@
     <widget name="next_text" position="258,227" size="150,40" zPosition="3" text="NEXT" font="NFRLCD; 34" halign="center" backgroundColor="background" transparent="1" />
     <widget name="more_text" position="445,227" size="150,40" zPosition="3" text="MORE" font="NFRLCD; 34" halign="center" backgroundColor="background" transparent="1" />
     <widget name="date" position="624,227" size="343,40" font="NFRLCD; 34" valign="center" halign="center" transparent="1" zPosition="5" />
-    <widget name="list" position="55,320" size="920,605" scrollbarMode="showOnDemand" backgroundColor="background" transparent="1" />
+    <widget name="list" position="55,320" size="920,599" scrollbarMode="showOnDemand" backgroundColor="background" transparent="1" />
     <widget source="Event" render="RunningText" position="1043,775" zPosition="1" size="829,176" font="Regular; 30" halign="center" options="movetype=running,startpoint=0,direction=top,steptime=90,repeat=2,startdelay=10000,wrap" backgroundColor="transparent" alphatest="on" transparent="1">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
@@ -4157,7 +4157,7 @@
     <ePixmap name="nfrlogo" position="1020,900" size="870,37" pixmap="skin_default/menu/nfrlogo.png" />
     <widget name="list" position="55,220" zPosition="1" size="920,700" font="Regular;32" halign="left" valign="top" transparent="1" />
     <applet type="onLayoutFinish">
-        self["list"].instance.setItemHeight(50)
+        self["list"].instance.setItemHeight38)
     </applet>
     <widget name="description" position="52,715" zPosition="1" size="921,200" font="Regular;20" halign="left" valign="top" transparent="1" />
   </screen>
