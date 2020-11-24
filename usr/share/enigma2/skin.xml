@@ -104,8 +104,6 @@
 	<alias name="FileList" font="Regular" size="30" height="40" />
 	<alias name="FileListMulti" font="Regular" size="30" height="40" />
 	<alias name="SelectionList" font="Regular" size="28" height="40" />
-	<alias name="PluginBrowser0" font="Regular" size="28" height="70" />
-	<alias name="PluginBrowser1" font="Regular" size="22" height="30" />
 </fonts>
 <parameters>
 	<parameter name="ChoicelistDash" value="0,2,700,2" />
@@ -123,12 +121,6 @@
 	<parameter name="SelectionListDescr" value="55, 3, 820, 50" />
 	<parameter name="SelectionListLock" value="10, 7, 50, 50" />
 	<parameter name="SelectionListLockOff" value="10, 7, 50, 50" />
-	<parameter name="PluginBrowserName" value="170,2,40"/>
-	<parameter name="PluginBrowserDescr" value="170,38,28"/>
-	<parameter name="PluginBrowserIcon" value="10,5,150,60"/>
-	<parameter name="PluginBrowserDownloadName" value="80,2,40"/>
-	<parameter name="PluginBrowserDownloadDescr" value="80,38,28"/>
-	<parameter name="PluginBrowserDownloadIcon" value="10,10,60,50"/>
 </parameters>
 <subtitles>
 	<sub name="Subtitle_TTX" font="Regular;30" shadowColor="#40101010" shadowOffset="3,3" />
