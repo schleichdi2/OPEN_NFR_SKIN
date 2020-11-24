@@ -3617,7 +3617,7 @@
       <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
     </widget>
     <eLabel text="Select HDD" position="74,50" size="720,45" font="NFRLCD; 42" transparent="1" foregroundColor="grey" backgroundColor="grey" halign="center" />
-    <widget name="hddlist" position="55,220" size="920,700" itemHeight="40" font="Regular; 26" transparent="1" />
+    <widget name="hddlist" position="55,220" size="920,700" itemHeight="36" font="Regular; 28" transparent="1" />
     <ePixmap name="tvback" position="1039,193" size="835,535" pixmap="skin_default/menu/tvbackmenu.png" />
     <ePixmap name="senderback" position="1042,729" size="828,80" pixmap="skin_default/menu/sendernameback.png" />
     <ePixmap name="progressback" position="1046,813" size="821,55" pixmap="skin_default/menu/progressbackmenu.png" />
