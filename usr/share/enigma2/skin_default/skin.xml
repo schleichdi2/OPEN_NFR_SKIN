@@ -2633,7 +2633,7 @@
       <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
     </widget>
     <eLabel text="Timer Editor" position="74,50" size="720,45" font="NFRLCD; 42" foregroundColor="grey" backgroundColor="grey" transparent="1" halign="center" valign="center" />
-    <widget name="timerlist" position="55,220" size="920,700" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="timerlist" position="55,220" size="920,700" scrollbarMode="showOnDemand" transparent="1"  rowSplit="40" iconMargin="20" satPosLeft="160"  itemHeight="70" setFont="Regular;24" setEventNameFont="Regular;28" setServiceNameFont="Regular;28" />
     <ePixmap pixmap="skin_default/buttons/red.png" position="55,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/green.png" position="568,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/yellow.png" position="1066,1000" size="300,76" alphatest="blend" />
