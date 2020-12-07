@@ -260,11 +260,6 @@
 			</convert>
 		</widget>
 	</screen>
-	<screen name="PVRState" position="92,50" zPosition="2" size="88,88" backgroundColor="transparent" flags="wfNoBorder" transparent="0">
-		<ePixmap position="0,0" zPosition="1" size="88,88" pixmap="screens/pvr-bg.png" />
-		<widget name="statusicon" position="18,12" zPosition="3" size="50,50" alphatest="on" pixmaps="icons/play_large.png,icons/pause_large.png,icons/stop_large.png,icons/forward_large.png,icons/backward_large.png,icons/slow_large.png" />
-		<widget name="speed" position="0,60" size="80,15" font="Regular;17" halign="right" foregroundColor="infobar-frgrnd" backgroundColor="infobar_sunken" transparent="1" zPosition="4" />
-	</screen>
 	<screen name="MessageBoxWizard" position="0,0" size="1280,720" flags="wfNoBorder" backgroundColor="black">
 		<ePixmap pixmap="screens/fs-bg-top-wizzard.png" position="0,0" size="1280,113" alphatest="on" transparent="1" zPosition="0" />
 		<panel name="FullscreenTitlePanel" />
@@ -295,16 +290,6 @@
 		<widget name="config" position="10,100" size="e-10,100" scrollbarMode="showOnDemand" />
 		<ePixmap pixmap="buttons/red.png" position="c-140,e-45" size="140,40" alphatest="on" />
 		<widget source="key_red" render="Label" position="c-140,e-45" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1" />
-	</screen>
-	<screen name="Seekbar" position="center,40" size="560,55" flags="wfNoBorder">
-		<widget name="cursor" position="0,15" size="8,18" pixmap="position_arrow.png" alphatest="on" />
-		<widget source="session.CurrentService" render="PositionGauge" position="145,30" size="270,10" zPosition="2" pointer="position_pointer.png:540,0" transparent="1" foregroundColor="#20224f">
-			<convert type="ServicePosition">Gauge</convert>
-		</widget>
-		<widget name="time" position="50,25" size="100,20" font="Regular;20" halign="left" backgroundColor="#4e5a74" transparent="1" />
-		<widget source="session.CurrentService" render="Label" position="420,25" size="90,24" font="Regular;20" halign="right" backgroundColor="#4e5a74" transparent="1">
-			<convert type="ServicePosition">Length</convert>
-		</widget>
 	</screen>
 	<screen name="Screensaver" position="fill" flags="wfNoBorder">
 		<eLabel position="fill" backgroundColor="#54111112" zPosition="0"/>
