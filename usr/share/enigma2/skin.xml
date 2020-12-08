@@ -12468,18 +12468,15 @@
   <widget name="statusicon" position="92,19" zPosition="3" size="35,35" alphatest="on" pixmaps="skin_default/icons/play.png,skin_default/icons/pause.png,skin_default/icons/stop.png,skin_default/icons/forward.png,skin_default/icons/backward.png,skin_default/icons/slow.png" transparent="1" />
   <widget name="speed" position="127,19" size="100,35" font="Regular; 30" halign="right" foregroundColor="white" backgroundColor="white" transparent="1" zPosition="4" />
 </screen>
-<screen name="Seekbar" position="center,50" size="833,84" flags="wfNoBorder" backgroundColor="transparent">
-  <widget name="cursor" position="290,35" size="8,18" pixmap="skin_default/skin_default/position_pointer2.png" zPosition="4" transparent="1" />
-  <widget source="session.CurrentService" render="PositionGauge" position="232,35" size="368,10" zPosition="5" pointer="skin_default/position_pointer.png:368,10" transparent="1">
+<screen name="Seekbar" position="center,40" size="833,84" flags="wfNoBorder">
+  <widget name="cursor" position="0,15" size="8,18" pixmap="position_arrow.png" alphatest="on" />
+  <widget source="session.CurrentService" render="PositionGauge" position="186,36" size="460,10" zPosition="2" pointer="position_pointer.png:460,0" transparent="1" foregroundColor="red">
     <convert type="ServicePosition">Gauge</convert>
   </widget>
-  <widget source="session.CurrentService" render="Progress" position="232,35" size="368,10" pixmap="skin_default/infobar/slider1.png" transparent="1" zPosition="4">
-    <convert type="ServicePosition">Position</convert>
-  </widget>
-  <widget name="time" position="31,22" size="200,36" font="Regular; 30" halign="center" backgroundColor="white" transparent="1" zPosition="1" />
-  <widget source="session.CurrentService" render="Label" position="601,22" size="200,36" font="Regular; 30" halign="center" backgroundColor="white" transparent="1">
+  <widget name="time" position="35,23" size="150,34" font="Regular; 28" halign="left" backgroundColor="grey" transparent="1" zPosition="3" />
+  <widget source="session.CurrentService" render="Label" position="647,23" size="150,34" font="Regular; 28" halign="right" backgroundColor="grey" transparent="1" zPosition="2">
     <convert type="ServicePosition">Length</convert>
   </widget>
-  <ePixmap name="new ePixmap" position="0,0" size="833,84" pixmap="skin_default/menu/eventview-back.png" alphatest="blend" zPosition="-1" />
+  <ePixmap name="seekback" position="0,0" size="833,84" pixmap="skin_default/menu/eventview-back.png"/>
 </screen>
 </skin>
