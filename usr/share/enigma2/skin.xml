@@ -815,8 +815,8 @@
       <convert type="ServiceInfo">IsCrypted</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <ePixmap pixmap="skin_default/icons/ico_rec_off.png" position="1381,658" size="100,63" zPosition="1" alphatest="blend" />
-    <widget source="session.RecordState" render="Pixmap" pixmap="skin_default/icons/ico_rec_on.png" position="1381,658" size="100,63" zPosition="2" alphatest="blend">
+    <ePixmap pixmap="skin_default/icons/ico_rec_off.png" position="1381,631" size="100,63" zPosition="1" alphatest="blend" />
+    <widget source="session.RecordState" render="Pixmap" pixmap="skin_default/icons/ico_rec_on.png" position="1381,631" size="100,63" zPosition="2" alphatest="blend">
       <convert type="ConditionalShowHide">Blink</convert>
     </widget>
     <ePixmap pixmap="skin_default/icons/subtitle_off.png" position="1080,778" size="75,31" zPosition="1" alphatest="blend" />
@@ -999,6 +999,7 @@
       <convert type="SkalliServiceEndTime">EndTime</convert>
     </widget>
     <eLabel name="new eLabel" position="1449,933" size="70,40" text="Uhr" foregroundColor="white" backgroundColor="white" transparent="1" font="NFRLCD; 34" halign="right" zPosition="1" valign="center" />
+    <eLabel name="new eLabel" position="1310,696" size="242,2" zPosition="6" foregroundColor="grey" backgroundColor="grey" />
   </screen>
   <screen name="MessageBox" position="center,center" size="1920,1080" title="Message" flags="wfNoBorder">
     <ePixmap position="center,center" zPosition="-10" size="1920,1080" pixmap="skin_default/menu/menu.png" />
@@ -12463,11 +12464,11 @@
     <ePixmap name="progressback" position="1046,813" size="821,55" pixmap="skin_default/menu/progressbackmenu.png" />
     <ePixmap name="nfrlogo" position="1020,900" size="870,37" pixmap="skin_default/menu/nfrlogo.png" />
   </screen>
-<screen name="PVRState" position="center,50" zPosition="2" size="300,76" backgroundColor="transparent" flags="wfNoBorder" transparent="0">
-  <ePixmap position="0,0" zPosition="1" size="300,76" pixmap="skin_default/buttons/red.png" alphatest="blend" />
-  <widget name="statusicon" position="92,19" zPosition="3" size="35,35" alphatest="on" pixmaps="skin_default/icons/play.png,skin_default/icons/pause.png,skin_default/icons/stop.png,skin_default/icons/forward.png,skin_default/icons/backward.png,skin_default/icons/slow.png" transparent="1" />
-  <widget name="speed" position="127,19" size="100,35" font="Regular; 30" halign="right" foregroundColor="white" backgroundColor="white" transparent="1" zPosition="4" />
-</screen>
+  <screen name="PVRState" position="1329,703" zPosition="0" size="205,35" backgroundColor="black" flags="wfNoBorder" transparent="0">
+    <widget name="statusicon" position="0,0" zPosition="3" size="35,35" alphatest="on" pixmaps="skin_default/icons/play.png,skin_default/icons/pause.png,skin_default/icons/stop.png,skin_default/icons/forward.png,skin_default/icons/backward.png,skin_default/icons/slow.png" transparent="0" foregroundColor="black" />
+    <widget name="speed" position="35,0" size="170,35" font="Regular; 30" halign="right" foregroundColor="white" backgroundColor="white" transparent="1" zPosition="4" />
+    <eLabel name="new eLabel" position="1329,705" size="205,2" foregroundColor="grey" backgroundColor="grey" />
+  </screen>
 <screen name="Seekbar" position="center,40" size="833,84" flags="wfNoBorder">
   <widget name="cursor" position="0,15" size="8,18" pixmap="position_arrow.png" alphatest="on" />
   <widget source="session.CurrentService" render="PositionGauge" position="186,36" size="460,10" zPosition="2" pointer="position_pointer.png:460,0" transparent="1" foregroundColor="red">
