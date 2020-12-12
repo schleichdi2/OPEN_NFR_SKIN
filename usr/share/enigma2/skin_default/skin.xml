@@ -12469,7 +12469,26 @@
     <widget name="speed" position="35,0" size="170,35" font="Regular; 30" halign="right" foregroundColor="white" backgroundColor="white" transparent="1" zPosition="4" />
     <eLabel name="new eLabel" position="1329,705" size="205,2" foregroundColor="grey" backgroundColor="grey" />
   </screen>
-<screen name="Seekbar" position="center,40" size="833,84" flags="wfNoBorder">
+  <screen name="Seekbar" position="center,40" size="1001,86" flags="wfNoBorder">
+  <widget name="cursor" position="0,0" size="16,32" pixmap="skin_default/epg/timeline-now_z.png" alphatest="blend" zPosition="6" />
+    <widget source="session.CurrentService" render="Label" position="807,25" size="150,34" font="Regular; 28" halign="center" backgroundColor="black" transparent="1" zPosition="2">
+      <convert type="ServicePosition">Length</convert>
+    </widget>
+    <ePixmap name="seekback" position="1,0" size="1001,86" pixmap="skin_default/menu/seek-back.png" zPosition="0" />
+    <widget name="time" position="202,25" size="150,34" pixmap="skin_default/epg/timeline-now_z.png" backgroundColor="black" font="Regular; 28" halign="center" transparent="1" valign="center" zPosition="5" />
+    <widget source="session.CurrentService" render="Label" position="40,25" size="150,34" font="Regular; 28" halign="center" valign="center" backgroundColor="black" zPosition="3">
+      <convert type="ServicePosition">Position</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Progress" position="364,40" size="433,5" zPosition="4" pixmap="skin_default/menu/seekprogress.png" transparent="1" >
+      <convert type="ServicePosition">Position</convert>
+    </widget>
+    <eLabel name="new eLabel" position="363,39" size="435,7" backgroundColor="grey" foregroundColor="grey" zPosition="1" />
+    <eLabel name="new eLabel" position="362,12" size="20,59" zPosition="7" backgroundColor="black" transparent="1" foregroundColor="white"/>
+    <eLabel name="new eLabel" position="357,25" size="2,34" zPosition="7" foregroundColor="une61700" backgroundColor="une61700"/>
+    <eLabel name="new eLabel" position="195,25" size="2,34" zPosition="7" foregroundColor="une61700" backgroundColor="une61700"/>
+    <eLabel name="new eLabel" position="801,25" size="2,34" zPosition="7" foregroundColor="une61700" backgroundColor="une61700"/>
+  </screen>
+<!--screen name="Seekbar" position="center,40" size="833,84" flags="wfNoBorder">
   <widget name="cursor" position="0,15" size="8,18" pixmap="position_arrow.png" alphatest="on" />
   <widget source="session.CurrentService" render="PositionGauge" position="186,36" size="460,10" zPosition="2" pointer="position_pointer.png:460,0" transparent="1" foregroundColor="red">
     <convert type="ServicePosition">Gauge</convert>
@@ -12479,5 +12498,5 @@
     <convert type="ServicePosition">Length</convert>
   </widget>
   <ePixmap name="seekback" position="0,0" size="833,84" pixmap="skin_default/menu/eventview-back.png"/>
-</screen>
+</screen-->
 </skin>
