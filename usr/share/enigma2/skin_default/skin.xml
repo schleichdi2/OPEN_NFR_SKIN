@@ -2567,8 +2567,11 @@
       <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
     </widget>
     <eLabel text="Timer log" position="74,50" size="720,45" font="NFRLCD; 42" transparent="1" foregroundColor="grey" backgroundColor="grey" halign="center" />
-    <widget name="loglist" position="55,220" size="920,700" scrollbarMode="showOnDemand" transparent="1" />
-    <widget name="logentry" position="55,690" size="920,230" font="Regular;20" transparent="1" />
+    <widget name="loglist" position="55,220" size="920,700" scrollbarMode="showOnDemand" transparent="1"  font="Regular; 28"/>
+    <applet type="onLayoutFinish">
+        self["loglist"].instance.setItemHeight(40)
+    </applet>
+    <widget name="logentry" position="55,690" size="920,230" font="Regular;28" transparent="1" />
     <ePixmap pixmap="skin_default/buttons/red.png" position="55,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/green.png" position="568,1000" size="300,76" alphatest="blend" />
     <ePixmap pixmap="skin_default/buttons/yellow.png" position="1066,1000" size="300,76" alphatest="blend" />
