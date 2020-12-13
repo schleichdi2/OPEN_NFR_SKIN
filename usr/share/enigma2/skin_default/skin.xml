@@ -12470,7 +12470,6 @@
     <eLabel name="new eLabel" position="1329,705" size="205,2" foregroundColor="grey" backgroundColor="grey" />
   </screen>
   <screen name="Seekbar" position="center,40" size="1000,84" flags="wfNoBorder">
-  <widget name="cursor" position="0,0" size="16,32" pixmap="skin_default/epg/timeline-now_z.png" alphatest="blend" zPosition="6" />
     <widget source="session.CurrentService" render="Label" position="807,25" size="150,34" font="Regular; 28" halign="center" backgroundColor="black" transparent="1" zPosition="2">
       <convert type="ServicePosition">Length</convert>
     </widget>
