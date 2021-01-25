@@ -1421,6 +1421,14 @@
     <ePixmap name="senderback" position="1042,729" size="828,80" pixmap="skin_default/menu/sendernameback.png" />
     <ePixmap name="progressback" position="1046,813" size="821,55" pixmap="skin_default/menu/progressbackmenu.png" zPosition="0" />
     <ePixmap name="nfrlogo" position="1020,900" size="870,37" pixmap="skin_default/menu/nfrlogo.png" />
+    <ePixmap pixmap="skin_default/buttons/red.png" position="55,1000" size="300,76" alphatest="blend" />
+    <ePixmap pixmap="skin_default/buttons/green.png" position="568,1000" size="300,76" alphatest="blend" />
+    <ePixmap pixmap="skin_default/buttons/yellow.png" position="1066,1000" size="300,76" alphatest="blend" />
+    <ePixmap pixmap="skin_default/buttons/blue.png" position="1565,1000" size="300,76" alphatest="blend" />
+    <widget name="red" render="Label" position="77,1017" size="255,34" zPosition="1" font="NFRLCD; 34" halign="center" valign="center" backgroundColor="white" transparent="1" />
+    <widget name="green" render="Label" position="590,1017" size="255,34" zPosition="1" font="NFRLCD; 34" halign="center" valign="center" backgroundColor="white" transparent="1" />
+    <widget name="yellow" render="Label" position="1088,1017" size="255,34" zPosition="1" font="NFRLCD; 34" halign="center" valign="center" backgroundColor="white" transparent="1" />
+    <widget name="blue" render="Label" position="1587,1017" size="255,34" zPosition="1" font="NFRLCD; 34" halign="center" valign="center" backgroundColor="white" transparent="1" />
   </screen>
   <screen name="menu_information" position="center,center" size="1920,1080" title="Main menu" flags="wfNoBorder">
     <ePixmap position="center,center" zPosition="-10" size="1920,1080" pixmap="skin_default/menu/menu.png" />
