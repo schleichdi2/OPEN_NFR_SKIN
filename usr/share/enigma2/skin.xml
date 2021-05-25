@@ -8855,7 +8855,7 @@
     <ePixmap name="tvback" position="1039,193" size="835,535" pixmap="skin_default/menu/tvbackmenu.png" />
     <ePixmap name="senderback" position="1042,729" size="828,80" pixmap="skin_default/menu/sendernameback.png" />
     <ePixmap name="progressback" position="1046,813" size="821,55" pixmap="skin_default/menu/progressbackmenu.png" zPosition="0" />
-    <widget name="config" position="55,220" size="920,320" zPosition="1" scrollbarMode="showOnDemand" transparent="1" font="Regular; 30" />
+    <widget name="config" position="55,220" size="920,300" zPosition="1" scrollbarMode="showOnDemand" transparent="1" font="Regular; 30" />
     <applet type="onLayoutFinish">
         self["config"].instance.setItemHeight(40)
     </applet>
@@ -8864,13 +8864,12 @@
     <widget source="key_red" render="Label" position="77,1017" size="255,34" zPosition="1" font="NFRLCD; 34" halign="center" valign="center" backgroundColor="white" transparent="1" />
     <widget source="key_green" render="Label" position="590,1017" size="255,34" zPosition="1" font="NFRLCD; 34" halign="center" valign="center" backgroundColor="white" transparent="1" />
     <eLabel text="Transcoding Setup" position="74,50" size="720,45" font="NFRLCD; 42" foregroundColor="grey" backgroundColor="grey" transparent="1" halign="center" />
-    <widget name="description" position="55,557" size="920,40" font="Regular; 28" halign="center" valign="center" backgroundColor="black" transparent="1" />
-    <ePixmap name="selector" position="51,640" size="930,10" pixmap="skin_default/menu/selector.png" zPosition="1" />
-    <ePixmap name="selector" position="51,545" size="930,10" pixmap="skin_default/menu/selector.png" zPosition="1" />
-    <widget name="HelpTextHeader1" position="55,598" zPosition="-1" size="920,40" backgroundColor="goldenrod" transparent="1" font="Regular; 28" halign="center" foregroundColor="goldenrod" />
-    <widget name="HelpText1" position="55,652" zPosition="1" size="920,150" backgroundColor="background" transparent="1" font="Regular; 28" halign="center" />
-    <widget name="HelpTextHeader2" position="55,804" zPosition="1" size="920,40" backgroundColor="goldenrod" transparent="1" font="Regular; 28" foregroundColor="goldenrod" halign="center" />
-    <widget name="Helpwhite" position="55,846" zPosition="1" size="920,80" backgroundColor="background" transparent="1" font="Regular; 28" halign="center" />
+    <widget name="description" position="55,550" size="920,80" font="Regular; 28" halign="center" valign="center" backgroundColor="black" transparent="1" />
+    <ePixmap name="selector" position="51,650" size="930,10" pixmap="skin_default/menu/selector.png" zPosition="1" />
+    <ePixmap name="selector" position="51,520" size="930,10" pixmap="skin_default/menu/selector.png" zPosition="1" />
+    <widget name="HelpTextHeader1" position="55,680" zPosition="-1" size="920,80" backgroundColor="goldenrod" transparent="1" font="Regular; 28" halign="center" foregroundColor="goldenrod" />
+    <widget name="HelpText1" position="55,740" zPosition="1" size="920,150" backgroundColor="background" transparent="1" font="Regular; 28" halign="center" />
+    <widget name="HelpTextHeader2" position="55,890" zPosition="1" size="920,40" backgroundColor="goldenrod" transparent="1" font="Regular; 28" foregroundColor="goldenrod" halign="center" />
   </screen>
   <screen name="WeatherLocationChoiceList" position="center,center" size="1920,1080" title="WeatherLocationChoiceList" flags="wfNoBorder">
     <ePixmap position="center,center" zPosition="-10" size="1920,1080" pixmap="skin_default/menu/menu.png" />
@@ -12349,8 +12348,8 @@
     <applet type="onLayoutFinish">
         self["config"].instance.setItemHeight(40)
     </applet>
-    <widget name="description" render="Label"  position="55,830" size="920,70" font="Regular; 28" zPosition="5" transparent="1" foregroundColor="goldenrod" backgroundColor="goldenrod" halign="center" valign="center" />
-    <ePixmap name="selector" position="51,800" size="930,10" pixmap="skin_default/menu/selector.png" zPosition="2" />
+    <widget name="description" render="Label"  position="55,850" size="920,70" font="Regular; 28" zPosition="5" transparent="1" foregroundColor="goldenrod" backgroundColor="goldenrod" halign="center" valign="center" />
+    <ePixmap name="selector" position="51,830" size="930,10" pixmap="skin_default/menu/selector.png" zPosition="2" />
   </screen>
   <screen name="QuadPiPChannelSelection" position="center,center" size="1920,1080" title="QuadPiPChannelSelection" flags="wfNoBorder">
     <ePixmap position="center,center" zPosition="-10" size="1920,1080" pixmap="skin_default/menu/menu.png" />
