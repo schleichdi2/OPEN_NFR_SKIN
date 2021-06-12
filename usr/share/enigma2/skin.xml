@@ -6520,7 +6520,7 @@
     <ePixmap name="senderback" position="1042,729" size="828,80" pixmap="skin_default/menu/sendernameback.png" />
     <ePixmap name="progressback" position="1046,813" size="821,55" pixmap="skin_default/menu/progressbackmenu.png" zPosition="0" />
     <eLabel text="HDMI CEC setup" position="74,50" size="720,45" font="NFRLCD; 42" foregroundColor="grey" backgroundColor="grey" transparent="1" halign="center" />
-    <widget name="config" position="55,220" size="920,626" zPosition="1" scrollbarMode="showOnDemand" transparent="1" font="Regular; 30" />
+    <widget name="config" position="55,220" size="920,566" zPosition="1" scrollbarMode="showOnDemand" transparent="1" font="Regular; 30" />
     <applet type="onLayoutFinish">
         self["config"].instance.setItemHeight(40)
     </applet>
